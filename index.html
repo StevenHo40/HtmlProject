@@ -7,64 +7,86 @@
     <meta name="author" content="Steven Ho">
     <meta name="keywords" content="HTML, CSS, HTML5, CSS3, Websites">
 
-    <title> Steven Ho Portfolio | Welcome </title>
+    <title> Steven Ho | Welcome </title>
     <link rel="stylesheet" href="./css/style.css">
   </head>
   <body>
     <header>
       <div class="container">
         <div id="branding">
-          <h1><span class="highlight">Steven Ho Portfolio </span></h1>
+          <h1><span class="highlight">Steven Ho </span></h1>
           <nav>
             <ul>
               <li class="current"><a href="index.html">Home</a></li>
               <li class="current"><a href="contact">Contact</a></li>
               <li class="current"><a href="projects.html">Projects</a></li>
+              <li class="current"><a href="blog">Blog</a></li>
               <li class="current"><a href="resume">Resume</a></li>
             </ul>
           </nav>
-    </header>
+        </div>
+      </header>
     <section id="showcase">
       <div class="container">
-        <h1> Steven Ho Portfolio </h1>
+        <h1>  Portfolio </h1>
         <p> Steven Ho is a student at University of Massachusetts Boston
           studying Finance.
           </p>
     </section>
     <section id="newsletter">
       <div class="container"
-        <h1> Subscribes to Our Newsletter </h1>
-        <form>
+        <h1 id="newsTitle"> Subscribes to Our Newsletter </h1>
+        <form id="newsForm">
           <input type="email" placeholder="Enter Email">
           <button type="submit" class="button1">Subscribe</button>
         </form>
     </section>
-    <section id="boxes">
-      <div class="container">
-        <div class="boxes">
+
+
+    <section class="boxesParent">
+        <div class="boxesChild">
           <img src="./img/logo_html.png">
           <h3> HTML5 </h3>
-          <p> Learned how to design websites with HTML5</p>
+          <p>  </p>
         </div>
-      </div>
-      <div class="container">
-        <div class="boxes">
+
+
+        <div class="boxesChild">
           <img src="./img/logo_css.png">
           <h3>CSS Style </h3>
-          <p> Style</p>
+          <p> </p>
         </div>
       </div>
-      <div class="container">
-        <div class="boxes">
-          <img src="./img/logo_brush.png">
-          <h1> UIUX </h1>
-          <p> Design </p>
-        </div>
+
+      <div class="boxesChild">
+        <img src="./img/js.png">
+        <h1> Javascript</h1>
+        <p>  </p>
       </div>
-</section>
-  <footer>
-    <p> Steven Ho Portfolio, Copyright  &copy;2019 </p>
-  </footer>
+
+      <div class="boxesChild">
+        <img src="./img/python.png">
+        <h1> Python </h1>
+        <p>  </p>
+      </div>
+
+      <div class="boxesChild">
+        <img src="./img/R.jpeg">
+        <h1> R Language </h1>
+        <p>  </p>
+      </div>
+
+        <div class="boxesChild">
+          <img src="./img/SQL.png">
+          <h1> SQL </h1>
+          <p> </p>
+        </div>
+    </section>
+    <div class="footer">
+      <footer>
+        <p> Steven Ho Portfolio, Copyright  &copy;2019 </p>
+      </footer>
+    </div>
 </body>
 
 </html>

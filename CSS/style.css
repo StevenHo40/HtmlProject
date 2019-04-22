@@ -19,6 +19,23 @@ header ul{
   padding:0;
 }
 
+.button1{
+  height:38px;
+  background:#ffffff;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color;#ffffff;
+}
+
+#newsTitle{
+  font-size: 32px !important;
+  margin-top: 20px;
+}
+#newsForm {
+  padding-bottom: 50px;
+}
+
 /* header */
 
 header{
@@ -38,15 +55,13 @@ header a {
 
 header li{
   float:left;
-  display:inline;
+  display:inline-block;
   padding: 0 20px 0 20px ;
 }
 
-header #branding {
-  float:left;
-}
 
 header #branding h1{
+  float: left;
   margin:0;
 }
 
@@ -69,12 +84,59 @@ header a:hover{
   #showcase{
     min-height:400px;
     background:url('../img/showcase.jpg');
+    background-position: center;
     text-align:center;
     color:#ffffff;
-}
-
-  #showcase{
-    margin-top:100px;
+    justify-content: center;
     font-size:55px;
-    margin-bottom:10px;
+
+  }
+
+  #newsletter{
+    padding:15px;
+    color:#ffffff;
+    background:#000000;
+  }
+
+  #newsletter h1{
+    float:left;
+  }
+
+  #newsletter form{
+    float:right;
+    margin-top:15px;
+  }
+
+  #newsletter input[type="email"]{
+    padding:4px;
+    height:24px;
+    width:250px;
+
+  }
+
+/* boxes */
+
+  .boxesParent{
+    margin-top:20px;
+    width: 100%;
+    float:none;
+  }
+
+  .boxesChild{
+    float:left;
+    text-align:center;
+    width:30%;
+    padding:10px;
+  }
+
+  .boxesChild img{
+    width:90px;
+  }
+
+  .footer {
+    float:right;
+    width: 100%;
+    text-align:center;
+    background: #000;
+    color: #fff;
   }
