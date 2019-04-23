@@ -1,6 +1,6 @@
 body {
   font: 15px/1.5 Arial, Helvetica, sans-serif;
-  padding:0;
+ padding:0;
   margin:0;
   background-color: #f4f4f4;
 
@@ -139,4 +139,49 @@ header a:hover{
     text-align:center;
     background: #000;
     color: #fff;
+  }
+
+  /* contact.html */
+  .contactTitle{
+  width: 85%;
+  max-width: 800px;
+  position: absolute;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%, -50%);
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 20px #000000b3;
+  font-family: "Montserrat",sans-serif;
+  }
+
+  .contactTitle h1{
+  margin-top: 0;
+  font-weight: 200;
+  }
+
+  .txtb{
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+  }
+
+  .txtb label {
+  display:block;
+  text-align:left;
+  color: #333
+  text-transform:uppercase;
+  font-size: 14px;
+  }
+
+  .txtb input, .txtb textarea {
+    width: 100%;
+    border:none;
+    background:none;
+    outline: none;
+    font-size: 18px;
+    margin-top: 6px;
   }
